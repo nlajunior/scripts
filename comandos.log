@@ -1,0 +1,59 @@
+    1  lsusb 
+    2  ls
+    3  cd /dev/bus/usb/001/
+    4  ls
+    5  cd 002
+    6  cd /
+    7  su -
+    8  cd /usr/local/
+    9  su
+   10  wget https://download.samba.org/pub/samba/samba-latest.tar.gz
+   11  su -
+   12  ls
+   13  sudo reboot 
+   14  su -
+   15  ls
+   16  mkdir Documents
+   17  ls
+   18  cd Documents/
+   19  ls
+   20  su -
+   21  cd Documents/
+   22  ls
+   23  pwd
+   24  su -
+   25  sudo apt-get update 
+   26  groups
+   27  su -
+   28  netstat -lntp
+   29  sudo vi /usr/local/samba/sbin/samba
+   30  $PATH 
+   31  su -
+   32  netstat -lntp
+   33  samba
+   34  netstat -lntp
+   35  sudo samba
+   36  logout
+   37  sudo samba
+   38  sudo samba start
+   39  su -
+   40  netstat -lntp
+   41  su -
+   42  ls
+   43  cd Documents/
+   44  ls
+   45  cd scripts/
+   46  ls
+   47  rm samba.sh 
+   48  sudo cp /etc/network/interfaces .
+   49  ls
+   50  git init 
+   51  sudo cp /etc/resolv.conf 
+   52  sudo cp /etc/resolv.conf .
+   53  ls
+   54  sudo cp /etc/hosts .
+   55  ls
+   56  vi hosts 
+   57  sudo cp /usr/local/samba/etc/smb.conf .
+   58  ls
+   59  history > comandos.log
